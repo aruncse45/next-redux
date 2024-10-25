@@ -3,7 +3,7 @@ import { useAppDispatch } from '@/hooks/useAppDispatch';
 import { RootState } from '@/types/store';
 import { useAppSelector } from '@/hooks/useAppSelector';
 
-export default function Home() {
+export default function Counter() {
   const dispatch = useAppDispatch();
   const count = useAppSelector((state: RootState) => state.counter.value);
 
